@@ -1,0 +1,31 @@
+$shadow: 2px 7px 20px 1px;
+
+html {
+    background: url(images/baehaki-hariri-yBeL0XChO8o-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#loginContainer{
+    background : {
+        color: #F0E6E0;
+    }
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: $shadow;
+    #loginIllustration {
+        width: 45%;
+        position: absolute;
+        top: -13%;
+        left: 25%;
+    }
+}
+
